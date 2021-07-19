@@ -34,3 +34,10 @@ jobs:
 
       - name: Publish
         run: node common/scripts/install-run-rush.js publish -a -p
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: AutoCommitBot
+          author_email: seobew@gmail.com
+          message: 'chore: auto commit after publish'
