@@ -1,5 +1,5 @@
 import React from 'react';
 
 export const Card = () => {
-  return <div>Card comp - 2</div>
+  return <div>Card comp - 3</div>
 };
