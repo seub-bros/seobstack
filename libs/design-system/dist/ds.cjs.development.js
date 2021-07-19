@@ -52,7 +52,7 @@ var Sidebar = function Sidebar() {
 };
 
 var Card = function Card() {
-  return React.createElement("div", null, "Card comp - 1");
+  return React.createElement("div", null, "Card comp - 2");
 };
 
 var Layout = function Layout(_ref) {
