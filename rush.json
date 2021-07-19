@@ -452,7 +452,7 @@
       "reviewCategory": "production"
     },
     {
-      "packageName": "@seob/ds",
+      "packageName": "@seub-bros/ds",
       "projectFolder": "libs/design-system",
       "reviewCategory": "production",
       "shouldPublish": true

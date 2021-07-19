@@ -24,6 +24,11 @@
   "peerDependencies": {
     "react": ">=16"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "scope": "@seobew"
+  },
+  "repository": "https://github.com/seub-bros/seobstack",
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
@@ -35,7 +40,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@seob/ds",
+  "name": "@seub-bros/ds",
   "author": "seob",
   "module": "dist/design-system.esm.js",
   "size-limit": [

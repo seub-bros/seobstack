@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Card, Layout } from "@seob/ds";
+import { Card, Layout } from "@seub-bros/ds";
 
 function App() {
   return (
