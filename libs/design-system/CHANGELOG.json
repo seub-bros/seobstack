@@ -1,6 +1,18 @@
 {
-  "name": "@seob/ds",
+  "name": "@seub-bros/ds",
   "entries": [
+    {
+      "version": "0.1.14",
+      "tag": "@seub-bros/ds_v0.1.14",
+      "date": "Mon, 19 Jul 2021 03:07:45 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update card change"
+          }
+        ]
+      }
+    },
     {
       "version": "0.1.13",
       "tag": "@seob/ds_v0.1.13",
