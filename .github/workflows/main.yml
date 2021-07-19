@@ -31,8 +31,8 @@ jobs:
         env:
           SKIP_PREFLIGHT_CHECK: true
 
-      - name: Deploy
-        run: node common/scripts/install-run-rush.js deploy -a -p
+      - name: Publish
+        run: node common/scripts/install-run-rush.js publish -a -p
         env:
           NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
