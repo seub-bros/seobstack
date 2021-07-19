@@ -4,20 +4,17 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+env:
+  NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+  GIT_AUTH_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
 jobs:
   build:
-    env:
-      NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
-
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
-
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         node: ['14.x']
         os: [ubuntu-latest]
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
