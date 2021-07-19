@@ -6,6 +6,10 @@ on:
     branches: [ master ]
 jobs:
   build:
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
+
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
 
     runs-on: ${{ matrix.os }}
@@ -33,6 +37,3 @@ jobs:
 
       - name: Publish
         run: node common/scripts/install-run-rush.js publish -a -p
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GIT_AUTH_TOKEN }}
