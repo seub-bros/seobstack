@@ -1,6 +1,17 @@
 # Change Log - @seub-bros/ds
 
-This log was last generated on Mon, 19 Jul 2021 06:02:04 GMT and should not be manually modified.
+This log was last generated on Mon, 19 Jul 2021 07:34:23 GMT and should not be manually modified.
+
+## 0.2.0
+Mon, 19 Jul 2021 07:34:23 GMT
+
+### Minor changes
+
+- update card to 4
+
+### Patches
+
+- update card comp
 
 ## 0.1.15
 Mon, 19 Jul 2021 06:02:04 GMT

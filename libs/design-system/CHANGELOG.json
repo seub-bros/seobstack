@@ -2,6 +2,23 @@
   "name": "@seub-bros/ds",
   "entries": [
     {
+      "version": "0.2.0",
+      "tag": "@seub-bros/ds_v0.2.0",
+      "date": "Mon, 19 Jul 2021 07:34:23 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "update card comp"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "update card to 4"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.15",
       "tag": "@seub-bros/ds_v0.1.15",
       "date": "Mon, 19 Jul 2021 06:02:04 GMT",
